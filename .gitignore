@@ -1,31 +1,21 @@
-# Dependencies
+# Node
 node_modules/
-.pnp
-.pnp.js
-
-# Build output
 dist/
 build/
-.vite/
+.cache/
 
-# Environment secrets
+# Env
 .env
 .env.local
-.env.*.local
 
 # Logs
 logs/
 *.log
-npm-debug.log*
 
-# OS files
+# OS
 .DS_Store
-Thumbs.db
 
-# Uploads (local dev only)
-backend/uploads/
-
-# Editor
-.vscode/
-.idea/
-*.swp
+# Python (varsa)
+venv/
+__pycache__/
+*.pyc
