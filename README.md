@@ -1,52 +1,58 @@
-# AI-Powered Enterprise Document and Workflow Assistant
+# 🤖 AI Document Workflow Assistant
 
-A full-stack graduation project that enables users to upload documents, ask natural-language questions about them (RAG), and trigger automated n8n workflows.
+An AI-powered system that automates document processing workflows using OCR, intelligent parsing, and task orchestration.
 
-## Tech Stack
+---
 
-| Layer      | Technology                 |
-|------------|----------------------------|
-| Frontend   | React + Vite + Tailwind CSS |
-| Backend    | Node.js + Express           |
-| Database   | PostgreSQL (Supabase)       |
-| AI         | OpenAI API (Embeddings + Chat) |
-| Automation | n8n webhooks               |
+## 🚀 Features
 
-## Quick Start
+- 📄 Document upload & processing
+- 🔍 OCR-based text extraction
+- 🧠 Intelligent data parsing
+- 🔁 Workflow automation system
+- 📊 Structured data output
+- ⚡ API-based architecture
 
-```bash
-# 1. Clone
-git clone <repo-url>
-cd ai-document-workflow-assistant
+---
 
-# 2. Backend
-cd backend
-cp ../.env.example .env   # fill in your values
-npm install
-npm run dev
+## 🛠️ Tech Stack
 
-# 3. Frontend
-cd ../frontend
-npm install
-npm run dev
-```
+- Node.js / Express
+- React / Frontend
+- OCR Engine
+- AI integrations
+- PostgreSQL / Supabase (optional)
 
-## Key Files
+---
 
-| File              | Purpose                              |
-|-------------------|--------------------------------------|
-| `claude.md`       | Project intelligence + coding rules  |
-| `architecture.md` | System design + data flow + schema   |
-| `tasks.md`        | MVP tasks + future improvements      |
-| `data.md`         | Development log                      |
-| `.env.example`    | Environment variable template        |
+## ⚙️ How It Works
 
-## API Endpoints
+1. Upload document  
+2. OCR extracts raw text  
+3. AI processes & structures data  
+4. Workflow engine triggers actions  
+5. Output is stored or forwarded  
 
-| Method | Route                        | Action                      |
-|--------|------------------------------|-----------------------------|
-| POST   | `/api/documents/upload`      | Upload a document           |
-| GET    | `/api/documents`             | List all documents          |
-| POST   | `/api/query`                 | Ask a question (RAG)        |
-| GET    | `/api/history`               | View query history          |
-| POST   | `/api/workflows/trigger`     | Trigger an n8n workflow     |
+---
+
+## 📌 Use Cases
+
+- Invoice processing  
+- Resume parsing  
+- Document automation  
+- Business workflow optimization  
+
+---
+
+## 👤 Author
+
+Veli Kalkan
+
+---
+
+## ⭐ Future Improvements
+
+- Drag & drop workflow builder  
+- Real-time processing  
+- AI-based classification  
+- Integration with external APIs  
